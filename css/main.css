@@ -1,0 +1,62 @@
+h1 {
+    color: blue;    
+}
+
+h3 {
+    color: blue;
+}
+
+#myTopnav {
+    margin-top: 25px;
+    background-color: lime;
+}
+
+.my-custom-h1 {
+    margin-bottom: 20px;
+    color: white !important;
+    font-size: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.my-custom-h3 {
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
+#myHeader
+{
+    margin-top: 25px;
+}
+
+/* Does Not work ? */
+#myMain {
+    background-image: url("seahawks-background_4.jpg");
+}
+
+#welcome {
+    margin-top: 25px;
+    background-color:blue;
+}
+
+#profile {
+    margin-top: 25px;
+    color: blue;
+}
+
+#interests {
+    margin-top: 25px;
+}
+
+#contacts {
+    margin-top: 25px;
+}
+
+/*
+.experiance {
+    display: inline-block;
+    width: 300px;
+}
+/*
