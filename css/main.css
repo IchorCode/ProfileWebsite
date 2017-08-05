@@ -77,6 +77,13 @@ h3 {
     background-color:white;
 }
 
+#socialmedia {
+    margin-top: 25px;
+    color: blue;
+    background-color:white;
+}
+
+
 .navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.active {
     color: blue !important;
 }
