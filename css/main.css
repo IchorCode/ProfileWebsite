@@ -69,6 +69,7 @@ h3 {
     margin-top: 25px;
     color: blue;
     background-color:white;
+
 }
 
 #contacts {
@@ -83,6 +84,9 @@ h3 {
     background-color:white;
 }
 
+.Underline{
+    text-decoration: underline
+}
 
 .navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.active {
     color: blue !important;
@@ -101,11 +105,12 @@ h3 {
 }
 
 .expierence-col-mid {
-    margin-left: -15px;
+    /*margin-left: -15px;*/
+
 }
 
 .expierence-col-right {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
 }
 
 .my-contact-controls{
