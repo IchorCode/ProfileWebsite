@@ -55,3 +55,10 @@ let string = font_size.replace(/\d/g,''); // px
 let new_font_size = (+number * 0.75) + string; // Reduce to 75%
 elems.style.fontSize = new_font_size;
 elems.textContent = "I'm Out";
+
+// On contact button click, re-set Welcome text
+document.getElementById("button").addEventListener("click", myFunction);
+function myFunction() {
+    let elems = document.querySelector('#welcome');
+    elems.textContent = "I'm In";
+}
