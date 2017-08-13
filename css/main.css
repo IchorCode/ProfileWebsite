@@ -115,8 +115,14 @@ h3 {
 #socialmedia {
     margin-top: 25px;
     color: blue;
-    background-color:white;
+    background-color:lime;
+    height: 50px;
+    line-height: 50px;
+
+
+    /* text-align: center; */
 }
+
 
 .Underline{
     text-decoration: underline
@@ -137,6 +143,17 @@ h3 {
 .expierence-col-left {
     margin-left: -15px;
 }
+
+.expierence-col-10 {
+    margin-left: -10px;
+}
+
+
+
+.expierence-col-left-plus {
+    margin-left: 8px;
+}
+
 
 .expierence-col-mid {
     /*margin-left: -15px;*/
