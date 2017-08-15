@@ -144,6 +144,16 @@ h3 {
     margin-left: -15px;
 }
 
+.expierence-col-right {
+    margin-left: 15px;
+}
+
+.expierence-col-right-5 {
+    margin-left: 5px;
+}
+
+
+
 .expierence-col-10 {
     margin-left: -10px;
 }
@@ -167,3 +177,25 @@ h3 {
 .my-contact-controls{
     border: 1px solid blue;    
 }
+
+
+
+/*
+.col-md-2 {
+    border: 1px solid red;
+}
+
+.col-md-3 {
+    border: 1px solid red;
+}
+
+.col-md-4 {
+    border: 1px solid red;
+}
+
+.col-md-5 {
+    border: 1px solid red;
+}*/
+
+
+
