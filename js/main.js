@@ -62,3 +62,44 @@ function myFunction() {
     let elems = document.querySelector('#welcome');
     elems.textContent = "I'm In";
 }
+
+let currentHeight = $('#welcome').css('height');
+let currentFontSize = $('#welcome').css('font-size').split('px')[0];
+
+console.log('Current Height');
+console.log(currentHeight);
+
+$('#buttonLeeds').click(function() {
+    $('#welcome').text("Marching On Together").css("background-color", "black");
+    let reducedFontSize = currentFontSize * .40;  
+    $('#welcome').css("font-size", reducedFontSize + 'px');  
+    $('#welcome').css("line-height", currentHeight);
+
+});
+
+$('#buttonSeahawks').click(function() {
+    $('#welcome').text("I'm In").css("background-color", "blue");
+    let newFontSize = currentFontSize;
+    $('#welcome').css("font-size", newFontSize + 'px');
+
+});
+
+// Add Class to Id
+$('#buttonEssex').click(function() {
+    
+    // Behaviour, adds class essex to welcome id
+    // Thus css for welcome is re-run, .essex overwriting my-custom-h1 as it is after in css file
+    $('#welcome').addClass('essex');
+    
+
+
+    
+    
+    
+    
+    
+
+
+});
+
+
