@@ -91,15 +91,28 @@ $('#buttonEssex').click(function() {
     // Thus css for welcome is re-run, .essex overwriting my-custom-h1 as it is after in css file
     $('#welcome').addClass('essex');
     
-
-
-    
-    
-    
-    
-    
-
-
 });
+
+
+// https://github.com/kswedberg/jquery-smooth-scroll/blob/master/readme.md
+
+
+// Try 1
+let socialmedia = document.querySelector('#socialmedia');
+console.log(socialmedia);
+$(socialmedia).smoothScroll();
+
+// Try 2
+$('#socialmedia a').smoothScroll();
+
+// Try 3
+$('#socialmedia').bind('click', function() {
+var $p1 = $('ul.navbar-nav a').last();
+console.log($p1);
+var p1Opts = $p1.smoothScroll('options') || {};
+p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
+$p1.smoothScroll('options', p1Opts);
+});
+
 
 
